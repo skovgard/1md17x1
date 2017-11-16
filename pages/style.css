@@ -1,0 +1,52 @@
+nav{
+    background-color:bisque;
+    width: ;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 2%;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 0 2% 0 2%
+}
+
+body{
+    font-family: helvetica;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    width: 70%;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 2%;
+    border-radius: 9px;
+    text-align: center;
+}
+
+section{
+    float: left;
+    background-color:bisque;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 9px;
+}
+article{
+    margin: 0 auto;
+    
+}
+
+img{
+    border-radius: 4.5px;
+}
