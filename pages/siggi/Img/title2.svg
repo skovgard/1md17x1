@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{opacity:0.89;clip-path:url(#SVGID_4_);}
+	.st2{clip-path:url(#SVGID_6_);fill:none;stroke:#FFCA00;stroke-width:5;stroke-dasharray:15.135,10.135;}
+	.st3{clip-path:url(#SVGID_6_);fill:none;stroke:#FFCA00;stroke-width:5;stroke-dasharray:14.082,9.082;}
+	.st4{clip-path:url(#SVGID_6_);fill:none;stroke:#FFCA00;stroke-width:5;}
+	.st5{fill:#88BACA;}
+	.st6{font-family:'Mohave-Bold';}
+	.st7{font-size:100px;}
+	.st8{letter-spacing:-1;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="67" y="226.3" width="708.4" height="144"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<rect id="SVGID_3_" x="67" y="226.3" width="708.4" height="144"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			<g>
+				<defs>
+					<rect id="SVGID_5_" x="66" y="217.3" width="670" height="162"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+				</clipPath>
+				<line class="st2" x1="708.8" y1="228.8" x2="82.1" y2="228.8"/>
+				<line class="st3" x1="69.5" y1="244.9" x2="69.5" y2="356.2"/>
+				<line class="st2" x1="87.2" y1="367.8" x2="713.9" y2="367.8"/>
+				<line class="st3" x1="726.5" y1="351.7" x2="726.5" y2="240.4"/>
+				<path class="st4" d="M726.5,235.8v-7h-7.6 M718.9,367.8h7.6v-7 M69.5,360.7v7h7.6 M77.1,228.8h-7.6v7"/>
+			</g>
+		</g>
+	</g>
+	<g class="st0">
+		<text transform="matrix(1 0 0 1 105.2539 343.3347)"><tspan x="0" y="0" class="st5 st6 st7">drinking </tspan><tspan x="344.7" y="0" class="st5 st6 st7 st8">g</tspan><tspan x="392" y="0" class="st5 st6 st7">ames</tspan></text>
+	</g>
+</g>
+</svg>
