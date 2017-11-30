@@ -1,0 +1,10 @@
+body { background-color: ghostwhite}
+header { background-color:lightgrey;}
+nav li { display: inline; padding-right: 1.1em;}
+     #text {background-color:darkgrey; width: 30%; float: left; margin-left: 2%; margin-bottom: 2%;}
+     #text1 {background-color:darkgrey; width: 30%; float: left;margin-left: 2%; margin-bottom: 2%;}
+     #text2 {background-color:darkgrey; width: 30%; float: left;margin-left: 2%; margin-bottom: 2%;}
+     #text3 {background-color:darkgrey; width: 30%; float: left;margin-left: 2%; margin-bottom: 2%;}
+     #text4 {background-color:darkgrey; width: 30%; float: left;margin-left: 2%; margin-bottom: 2%;}
+     #text5 {background-color:darkgrey; width: 30%; float: left;margin-left: 2%; margin-bottom: 2%;}
+     footer { padding: 2%; clear: both;} 
