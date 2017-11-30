@@ -1,0 +1,123 @@
+body {
+    
+	
+    font-family: 'Lato', Arial, sans-serif;
+    
+}
+
+
+
+    
+    
+
+
+.logo {
+    
+}
+    
+    
+p {font-size: 18px;
+    margin-bottom: 2%;
+    
+    
+    
+    
+}
+
+h1 { 
+  
+    
+}
+
+
+h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 2%
+    
+}
+
+h3 {font-size: 14px;
+    font-style: italic;
+    margin-bottom: 2.5%
+    
+}
+img {max-width: 100%;
+    
+}
+
+#wrapper {
+	max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+	height: auto;
+    padding-bottom: 2%;
+    
+	
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+content {
+    
+}
+
+.stock {background: #f2f2f2;
+    
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+	
+	
+    display:flex;
+    height: auto; 
+    padding-top: 3%;
+    clear: both;
+    opacity: 0.5;
+    
+    
+
+    
+    
+}
+
+
+@media only screen and (min-width: 280px) {
+    header {
+        background-color: white;
+    }
+    article img {
+        max-width: 100%;
+        max-height: 100%;
+
+        float: left;
+        
+    
+        
+    }
+
+
+    #article1 {
+        max-width: 600px;
+        
+        clear: none;
+        float: left;
+        padding-bottom: 2.4%
+            
+        
+    }
+
+    .quote {
+        font-style: italic;
+    }
+}
