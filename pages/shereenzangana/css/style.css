@@ -1,0 +1,585 @@
+/* Based on template from csslayoutgenerator.com */
+
+/* WEBSITE WIDE STYLES 
+-------------------------------------------------------------------------------*/
+
+body {
+    font: 14pt/18pt font-family: "Arial", "Aktiv-Grotesk-Regular";
+    line-height: 1em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Aktiv-Grotesk-Bold";
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: normal;
+    font-family: "Abril Fatface";
+}
+
+h1 span {
+    line-height: 2em;
+}
+
+h2 {
+    padding-top: 5px;
+    font-size: 1.05em;
+}
+
+h2 span {
+    display: block;
+    font-family: "Aktiv-Grotesk-Italic";
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1em;
+    padding-top: 5px;
+}
+
+.read-more:hover {
+    color: #ef562d;
+}
+
+.read-more {
+    font-size: 1.1em;
+    
+
+}
+
+h3 {
+    font-size: 10pt;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section-title {
+    font-family: "Aktiv-Grotesk-Black";
+    text-transform: uppercase;
+    display: block;
+    padding: 0.75em;
+    font-size: 15pt;
+    line-height: 1em;
+}
+
+main p {
+    padding-bottom: 1em;
+
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    color: #ef562d;
+}
+
+.interview-text a {
+    border-bottom: 1.5px;
+    border-bottom-color: #ef562d;
+    border-bottom-style: solid;
+}
+
+#article1 p > a {
+    border-bottom: 1.5px;
+    border-bottom-color: #ef562d;
+    border-bottom-style: solid;
+}
+
+#article1 p {
+        font-size: 1.3em;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+}
+
+.new-interview h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 3px;
+    border-bottom-color: #ef562d;
+    border-bottom-style: solid;
+}
+
+.article-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+}
+
+.subheader {
+    font-size: 1.5em;
+    line-height: normal;
+    font-family: "Aktiv-Grotesk-Light";
+}
+
+.leading-interview-text {
+    font-family: "Aktiv-Grotesk-Bold-Italic"
+}
+
+/* Fonts 
+-----------------------------------------------------------------------------  */
+
+/* Serif */
+
+@font-face {
+    font-family: Abril;
+    src: url(../fonts/abril/Abril_Display_Regular.otf);
+}
+
+@font-face {
+    font-family: Abril-Fatface;
+    src: url(../fonts/abril/Abril_Fatface.otf);
+}
+
+@font-face {
+    font-family: Abril-Text-Italic;
+    src: url(../fonts/abril/Abril_Text_Italic.otf);
+}
+
+/* Sans Serif */
+
+@font-face {
+    font-family: Aktiv-Grotesk-Light;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-Light.ttf);
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-Regular;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-Bold;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-Bold-Italic;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-LightItalic;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-Italic;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-Italic.ttf);
+}
+
+
+
+@font-face {
+    font-family: Aktiv-Grotesk-Black;
+    src: url(../fonts/aktiv-grotesk/ttf/AktivGrotesk-Black.ttf);
+}
+
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: auto;
+    padding: 1em;
+}
+
+
+/* Header and Navigation 
+------------------------------------------------------------------------------*/
+
+nav {
+    line-height: 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: "Aktiv-Grotesk-Bold";
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+.navigation:hover {
+    border-bottom: 3px;
+    border-bottom-color: #ef562d;
+    border-bottom-style: solid;
+}
+
+.navigation {
+    border-bottom: 3px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+}
+
+nav img {
+    max-width: 100%;
+}
+
+header {
+    border-bottom: 1px;
+    border-bottom-color: #e0e0e0;
+    border-bottom-style: solid;
+}
+
+.subscribe {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Aktiv-Grotesk-Bold";
+}
+
+.subscribe:hover {
+    color: #ef562d;
+}
+
+/* Social Media Icons */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+
+
+/* MEDIA QUERIES 
+------------------------------------------------------------------------------*/
+
+/* MAX 700px */
+
+@media only screen and (max-width: 700px) {
+    header .subscribe {
+        display: none;
+    }
+}
+
+/* @700px */
+
+@media only screen and (min-width: 700px) {
+    nav img {
+        max-width: 400px;
+    }
+    .subscribe {
+        margin-right: auto;
+    }
+    .social-icons {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .directory-article {
+        max-width: calc(100% / 3 - 2em);
+    }
+
+.full-width-feature-image {
+    max-height: 90vh;
+}
+
+}
+
+
+/* Index Specific */
+
+@media only screen and (min-width: 700px) {
+    .new-interview {
+        width: calc(100%/1.5);
+    }
+    .recent-interviews {
+        width: calc(100%/3);
+    }
+    .recent-interviews article {
+        align-self: stretch;
+    }
+}
+
+.directory {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Interview Pages @700px */
+
+@media only screen and (min-width: 700px) {
+    .side-by-side, .interview-feature-article {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+    }
+    
+    .full-width-feature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-width-feature-image {
+        max-width: 50%;
+    }
+
+    .full-width-feature-quote > h4 {
+        font-size: 3em;
+    }
+
+    .full-width-feature-quote > h4 span {
+        font-size: 0.5em;
+    }
+    .header-profile {
+        max-height: 100vh;
+        object-fit:contain;
+    }
+    .proportional-image-container img {
+        max-height: 100vh;
+    }
+}
+
+
+
+/* Directory Page more than 1500px */
+
+/* INDEX SPECIFIC STYLES 
+------------------------------------------------------------------------------*/
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+article {
+    padding: 1em;
+}
+
+
+/* Flex It - Index 
+------------------------------------------------------------------------------*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+main > div {
+    width: 100%;
+}
+
+.new-interview {
+    position: relative;
+}
+
+
+.new-interview button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Flex It - VIDEO  
+------------------------------------------------------------------------------*/
+
+iframe {
+    padding: 0.35em 0.75em;
+    max-width: 100%;
+}
+
+.media {
+    text-align: center;
+    margin: 2em;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: auto;
+    padding: 1em;
+    border-top: 1px;
+    padding-top: 30px;
+    border-top-color: #e0e0e0;
+    border-top-style: solid;
+    display: flex;
+}
+
+footer p,
+img {
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+footer margin,
+p {
+    margin-right: auto;
+}
+
+footer .social-media {
+    align-self: flex-end;
+}
+
+footer #subscribe {
+    padding-right: 0.6em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* 480px-600px ---------------------------------------------- 
+
+@media only screen and (min-width: 500px) {
+    article img {
+        float: left;
+        padding-right: 1em;
+    }
+    #article2 {
+        clear: both;
+    }
+    footer {
+        clear: both;
+    }
+}
+*/
+
+/* INTERVIEW PAGES SPECIFIC STYLES 
+------------------------------------------------------------------------------*/
+
+.interview-text {
+    padding: 1em;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+}
+
+.proportional-image-container {
+    padding: 1em;
+    max-width: 650px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.full-width-feature {
+    padding: 3em;
+}
+
+
+.pale-dogwood section {
+    background: #efcec5;
+}
+
+.island-paradise section {
+    background: #97d5e0;
+}
+
+.flame section {
+    background: #ef562d;
+}
+
+.lapis-blue section {
+    background: #0c4c8a;
+}
+
+.primrose-yellow section {
+    background: #f6d258;
+}
+
+.niagara section {
+    background: #5587a2;
+}
+
+.full-width-feature-quote {
+    padding: 2em;
+}
+
+.full-width-feature-quote > h4 {
+    font-family: "Abril";
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.full-width-feature-quote > h4 span {
+    font-family: "Aktiv-Grotesk-Light";
+    font-size: 14pt;
+    text-transform: none;
+}
+
+.full-width-feature-image {
+    object-fit: contain;
+    height: auto;
+}
+
+.header-profile {
+    width: 100%;
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+
+/* ANY WAY TO CLEAN UP ABOVE??? */
+
+.double-full-width-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.double-full-width-image img {
+    object-fit: contain;
+    width: 50%;
+    object-position: center;
+
+}
+
+
+
+
+/* DIRECTORY PAGES SPECIFIC STYLES 
+------------------------------------------------------------------------------*/
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.directory img {
+    width: 400px;
+}
+
+.directory h2 {
+    max-width: 400px;
+}
+
+.directory-title {
+    margin-bottom: 1em;
+}
+
+.directory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
