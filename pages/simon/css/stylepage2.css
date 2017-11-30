@@ -1,0 +1,79 @@
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	height: 100%;
+    background-image: url("accets/page1.png");
+}
+#wrapper {
+	min-width: 320px;
+	max-width: 1240px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+    background-image: url("accets/page1.png");
+}
+p {
+font: url("fonts/Minion%20Pro%20Regular.ttf");
+font-size: 18px ;
+    }
+h1 {
+font-feature-settings: url("fonts/ELEPHNT.TTF");
+font-size: 60px ;
+width: 100%;
+padding-left: 60px;
+}
+h2 {
+    font: url("fonts/ELEPHNT.TTF"), bold;
+    font-size: 35px;
+    align-content: center;
+}
+article {
+    font-size: 32px
+}
+section {
+    width: 25%;
+}
+.headline1 {
+    float: left;
+    text-align: center;
+}
+#sec1{
+float: left;
+width: 33%;
+padding-right: 50px
+}
+#pros {
+    float: left;
+    width: 33%
+}
+#sec2{
+left: left;
+width: 33%;
+padding-top: 20%
+}
+}
+#cons {
+float: none;
+    width: 33%
+}
+#headline1 {
+    width: 100%;
+    padding: 20px
+}
+nav li {
+    text-align: center;
+    display:inline;
+    padding: 8px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    text-decoration-color: antiquewhite; 
+}
+header {
+    background-image: url(accets/header3.jpg);
+    padding: 10px;
+}

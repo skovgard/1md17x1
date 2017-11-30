@@ -1,0 +1,108 @@
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	height: 100%;
+    background-image: url("accets/trypage.jpg");
+}
+#wrapper {
+	min-width: 320px;
+	max-width: 800px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+    background-color: 
+}
+p {
+font: url("fonts/Minion%20Pro%20Regular.ttf");
+font-size: 18px ;
+    }
+h1 {
+font-feature-settings: url("fonts/ELEPHNT.TTF");
+font-size: 60px ;
+width: 500px;
+padding-left: 60px;
+}
+h2 {
+    
+    font: url("fonts/ELEPHNT.TTF"), bold;
+    font-size: 35px;
+}
+article {
+    font-size: 28px
+}
+.headline1 {
+    text-align: center;
+}
+#sec1{
+text-align: center;
+width: 500px;
+padding-right: 50px;
+padding: 30px;
+}
+#pros {
+      margin: 10px;
+        padding: 20px;
+    width: 500px;
+padding-bottom:
+}
+#sec4{
+text-align: center;
+width: 500px;
+padding-bottom: 20px;
+padding: 30px;
+}
+#cons {
+    padding: 20px;
+    width: 500px;
+    margin: 10px;
+}
+#headline1 {
+    width: 350px;
+    padding: 20px
+}
+nav li {
+    text-align: center;
+    display:inline;
+    padding: 8px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    text-decoration-color: antiquewhite; 
+}
+header {
+    background-image: url(accets/header3.jpg);
+    padding: 10px;
+}
+h3 {
+
+    font-size: 40
+}
+#tænkebox {
+}
+#sec3 {
+    text-align: center;
+width: 500px;
+padding-bottom: 20px;
+padding: 30px;
+}
+#old lady {
+    align-content: center;
+}
+#divsec2 {
+    float: left
+}
+#divsec3 {
+    float: left
+}
+#divpros {
+    float: left
+}
+#divcons {
+    float: left
+}
+/* Header
+-----------------------------------------------------------------------------*/
