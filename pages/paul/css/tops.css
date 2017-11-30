@@ -1,0 +1,172 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 120% Arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {;
+}
+
+h1 {
+  font-size: 1em;
+    text-align: justify;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {font-size: 2.5em;
+font-family: 'Quicksand', sans-serif;
+margin-top: 1em;
+background-color: crimson;
+margin-right: 55%}
+
+h3 {
+font-family: 'Fredericka the Great', cursive;}
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  height: 5em;
+  background-color: white;
+  padding-top: 3%;
+  padding-left: 5%;
+    padding-bottom: 2%;
+   padding-left: 10%;
+}
+
+nav {
+  text-align: right;
+
+}
+
+ul { font-family: 'Fredericka the Great', cursive;
+    list-style-type: none;
+    margin: -4em;
+    overflow: hidden;
+    background-color: white;
+    padding-right: 20%;
+    margin-left: 0em;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8em;  
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+.fill { object-fit: fill;}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {}
+.container {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+object-fit: cover;}
+    
+    .movies {position: absolute;
+    bottom: 30%;
+    left: 17%;
+        text-align: justify;
+    transform: translate(-50%, -50%);
+        font-size: 200%;
+        font-family: 'Quicksand', sans-serif;
+}
+
+ .series {
+     text-decoration-color:black;
+     color: black;
+    position: absolute;
+    bottom: -15%;
+    left: 19%;
+        text-align: justify;
+    transform: translate(-50%, -50%);
+        font-size: 200%;
+     font-family: 'Quicksand', sans-serif;
+}
+
+
+ .soundtrack {
+     color: white;
+    position: absolute;
+    bottom: -18%;
+    left: 22%;
+        text-align: justify;
+    transform: translate(-50%, -50%);
+        font-size: 180%;
+     font-family: 'Quicksand', sans-serif;
+}
+p {font-size: 40%;}
+
+.it {width: 100%;}
+.dynasty { width: 100%;}
+.emoji { width: 100%;}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: auto;
+  background-color: crimson;
+  padding: 2%;
+  clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+
+   body { 
+      font-size: 30%; 
+   } li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+} header {
+  background-color: white;
+    margin-bottom: 3%;
+    padding-left: 10%; margin-bottom: 8em;} .centered { bottom: 40%;}
+
+    }
+@media only screen and (max-width: 1200px) {
+    body  {font-size: 30%; bottom: 20%;}}
+
+    @media only screen and (max-width: 640px) { body { font-size: 30%; bottom: 20%;}}
+
+@media only screen and (max-width: 480px) {
+    body { font-size: 30%; bottom: 20%;}}
+
+
+@media only screen and (max-width: 360px) {body {font-size: 10%;} .centered { font-size: 30%; bottom: 30%} li a {
+    display: block;
+    color: black; text-align: center; padding: 0.4em 3em; text-decoration: none;}}
+
+/* iOS/android phone landscape screen width*/
+@media screen and (max-device-width: 480px) and (orientation:landscape) {.stage-left {left: -480px;} .stage-right { left: 480px;} .page {width: 480px;}} 

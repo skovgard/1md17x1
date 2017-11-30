@@ -1,0 +1,210 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 120% Arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {;
+}
+
+h1 {
+  font-size: 1em;
+    text-align: justify;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h3 {
+font-family: 'Fredericka the Great', cursive;}
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/ 
+
+header {
+  height: 5em;
+  background-color: white;
+  padding-top: 3%;
+  padding-left: 5%;
+    padding-bottom: 2%;
+   padding-left: 10%;
+}
+
+nav {
+  text-align: right;
+
+}
+
+ul { font-family: 'Fredericka the Great', cursive;
+    list-style-type: none;
+    margin: -4em;
+    overflow: hidden;
+    background-color: white;
+    padding-right: 20%;
+    margin-left: 0em;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8em;  
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+.fill { object-fit: fill;}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+body { background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EbyCIUQPl/videoblocks-abstract-simple-black-and-white-waving-3d-grid-or-mesh-as-paysage-in-video-game-grey-geometric-vibrating-environment-or-pulsating-background_r0h1shkwb_thumbnail-full01.png);
+background-repeat: no-repeat;
+}
+ 
+.contact {
+margin-bottom: 5em;
+margin-right: 29.2em;
+margin-left: 10em;
+    padding: 0.5em;
+background: rgba(242, 242, 242, 0.8)}
+
+.phone {
+margin-bottom: 5em;
+margin-right: 48em;
+margin-left: 10em;
+    padding: 0.5em;
+background: rgba(242, 242, 242, 0.8) }
+
+.mail {
+margin-bottom: 5em;
+margin-right: 48em;
+margin-left: 10em;
+    padding: 0.5em;
+background: rgba(242, 242, 242, 0.8)}
+
+.social {
+margin-bottom: 5em;
+margin-right: 30em;
+margin-left: 10em;
+margin-top: 2em;}
+
+#facebook { margin-right: 1em;
+width: 8%;
+height: auto;}
+
+#twitter { margin-right: 1em;
+width: 8%;
+height: auto;}
+
+#instagram { margin-right: 1em;
+width: 8%;
+height: auto;}
+
+#snapchat { margin-right: 1em;
+width: 8%;
+height: auto;}
+
+h2 { font-size: 200%;
+    margin-right: 25em;
+    margin-left: 4em;
+    margin-top: 2em;
+background-color: crimson;
+font-family: 'Quicksand', sans-serif;}
+
+.links { color: brown;}
+.links:link { color: brown;}
+.links:visited {
+color: #999999;
+}
+.links:hover {
+color: #ff3300;
+}
+    
+    .centered { font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+        
+    transform: translate(-50%, -50%);
+        font-size: 1000%;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer { position:static;
+  height: auto;
+  background-color: crimson;
+  padding: 2%;
+  clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+
+   body {
+      font-size: 60%; 
+    } img { max-width: 50%;} li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+       
+} header { margin-bottom: 20em;
+  background-color: white;
+    margin-bottom: 3%;
+    padding-left: 10%;}
+    
+    }
+
+@media only screen and (max-width: 1200px) {
+    .centered { font-size: 8em; bottom: 20%;}}
+
+@media only screen and (max-width: 640px) {
+    .centered { font-size: 8em; bottom: 20%;}}
+
+@media only screen and (max-width: 480px) {
+    .centered { font-size: 8em; bottom: 20%;}}
+
+
+@media only screen and (max-width: 360px) {body {font-size: 10%;} .centered { font-size: 20em; bottom: 30%} li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.4em 3em;
+    text-decoration: none;
+    } header { padding-bottom: 10em;}}
+
+/* iOS/android phone landscape screen width*/
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+  .stage-left {
+    left: -480px;
+  }
+
+  .stage-right {
+    left: 480px;
+  }
+
+  .page {
+    width: 480px;
+  }
+}

@@ -1,0 +1,171 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 120% Arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {;
+}
+
+h1 {
+  font-size: 1em;
+    text-align: justify;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h3 {
+font-family: 'Fredericka the Great', cursive;}
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  height: 5em;
+  background-color: white;
+  padding-top: 3%;
+  padding-left: 5%;
+    padding-bottom: 2%;
+   padding-left: 10%;
+}
+
+nav {
+  text-align: right;
+
+}
+
+ul { font-family: 'Fredericka the Great', cursive;
+    list-style-type: none;
+    margin: -4em;
+    overflow: hidden;
+    background-color: white;
+    padding-right: 20%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8em;  
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+.fill { object-fit: fill;}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {}
+.fill { width: 100%}
+.container { 
+    position: relative;
+    align-self: center;
+    text-align: center;
+    color: whitesmoke;
+object-fit: cover;}
+    
+    .centered { font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    left: 50%;
+        font-size: 10em;
+    transform: translate(-50%, -50%);
+bottom: 40%
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: auto;
+  background-color: crimson;
+  padding: 2%;
+  clear: both;
+}
+
+@media only screen and (max-width: 48px) {
+    img { max-width: 50%;}
+
+   body { width: auto;
+      font-size: 60%; 
+   } li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+} header {
+  background-color: white;
+    margin-bottom: 3%;
+    padding-left: 10%;} .centered { bottom: -20%; clear: both; width: 10%;} .fill { width: 100%; }
+
+    }
+
+
+@media only screen and (max-width: 360px) {body {font-size: 10%;} .centered { font-size: 20em; bottom: 40%; transform: translate(-50%, -50%);} li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.4em 3em;
+    text-decoration: none;
+    } 
+    
+    header{padding-bottom: 10em;}}
+
+
+
+/* iOS/android phone landscape screen width*/
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+  .stage-left {
+    left: -480px;
+  }
+
+  .stage-right {
+    left: 480px;
+  }
+
+  .page {
+    width: 480px;
+  }
+}
+
+/*----------------------------flip transition */
+#back,
+#front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-duration: .5s;
+  -webkit-transform-style: preserve-3d;
+}
+
+.normal {
+  -webkit-transform: rotateY(0deg);
+}
+
+.flipped {
+  -webkit-user-select: element;
+  -webkit-transform: rotateY(180deg);
+}
+    

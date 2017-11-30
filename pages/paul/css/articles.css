@@ -1,0 +1,214 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+    font: 120% Arial, sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    ;
+}
+
+h1 {
+    font-size: 1em;
+    text-align: justify;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+    font-size: 3.5em;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h4 {
+    font-weight: bold;
+    padding-left: 4em;
+    padding-bottom: 1em;
+}
+
+h5 {
+    font-size: 2em;
+}
+
+#wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: 5em;
+    background-color: white;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+nav {
+    text-align: right;
+
+}
+
+ul {
+    font-family: 'Fredericka the Great', cursive;
+    list-style-type: none;
+    margin: -4em;
+    overflow: hidden;
+    background-color: white;
+    padding-right: 20%;
+    margin-left: 0em;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    object-fit: cover;
+}
+
+.centered {
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-size: 1000%;
+}
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#cover {
+    display: block;
+    margin: auto;
+    width: 80%
+}
+
+#poster1 {
+    display: block;
+    margin-left: 2em;
+    margin-top: 1em;
+    float: left;
+    width: 40%
+}
+
+#poster2 {
+    display: block;
+    margin: auto;
+    padding-left: 10em;
+    margin-top: 1.1em;
+    width: 40%
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+#gone {
+    float: right;
+    width: 20%;
+    margin-left: 2%
+}
+
+.newspaper {
+    column-count: 3;
+    /* Chrome, Safari, Opera */
+    column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+#ridley { width: 100%;}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: auto;
+    background-color: crimson;
+    padding: 2%;
+    clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+
+    body {
+        font-size: 60%;
+    }
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+    header {
+        background-color: white;
+        margin-bottom: 3%;
+        padding-left: 10%;
+    }
+    .centered {
+        bottom: 40%;
+    }
+    img { max-width: 90%;}
+
+}
+
+@media only screen and (max-width: 1200px) {.centered {font-size: 8em; bottom: 20%;}}
+
