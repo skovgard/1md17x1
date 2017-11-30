@@ -1,0 +1,104 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+
+.wrapper {
+	min-width: 100px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	  height: 70px;
+ background-image: url("../images/header.jpg")  ;
+  padding: 2%;font-family: 'Audiowide', cursive;font-size: 25px;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+}
+img{width: 90%;align-content: center;}
+article h1 {font-size: 25px;text-align: center;color: #8e0404;font-family: 'Merienda', cursive;padding: 2%; text-shadow: 2px 2px 8px #000;}
+li {list-style-type: disc;padding: 1%;}
+#right{padding: 2%;font-size: 15px;}
+#left {padding: 2%;font-size: 15px;}
+section img{width: 300px;height: 200px;}
+h3 {font-size: 18px;color: #8e0404;padding: 2%;font-family: 'Merienda', cursive;}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 75px;
+	text-align: center;
+   
+    clear: both;
+    background-image:url("../images/footer.jpg");
+    font-size: 15px; color: #8e0404;
+}
+
+/* 480px-600px ---------------------------------------------- */ @media only screen and (min-width: 500px) 
+{#header {  background-color:#FF6; }
+
+    #right{float: left;max-width: 46%; display: block}
+    #left{float: right; max-width: 46%; display: block; clear: none} 
+    article img{width: 90%;align-content: center;}
+
+
+
+
+ /* gul */
