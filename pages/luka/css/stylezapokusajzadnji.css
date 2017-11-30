@@ -1,0 +1,370 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navigation {
+    display: none;
+}
+.imglogo {
+    height: 90px;
+    float: left
+}
+
+ul li {
+    top: 40px;
+    position: relative;
+}
+
+ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 1%;
+    font-family: 'Fauna One', serif;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline;
+}
+nav li a:hover {
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(aarhus1.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    color: #F9F3F4;
+    text-shadow: 2px 2px #000;
+    font-size: 400%;
+    line-height: 1;
+}
+
+.content h3 {
+    font-family: 'Fauna One', serif;
+    font-size: 20px;
+    color: #f9d1d4;
+    text-shadow: 3px 3px black;
+    padding: 2%;
+    line-height: 1;
+}
+
+.btn {
+    /*background-color: #c82128;*/
+    border-radius: 10px;
+    font-family: 'Fauna One', serif;
+    color: white;
+    font-size: 90%;
+    border: solid white 1px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #c82128;
+    /*color: #c82128;*/
+    border: solid #c82128 1px;
+    text-decoration: underline;
+}
+
+p,
+.listing {
+    font-size: 150%;
+    line-height: 150%;
+    text-align: justify;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Fauna One', serif;
+    color: darkslategray;
+
+}
+
+/*PARALLEX*/
+
+.parallex {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    background: url(1dokkkkfi.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallex .inner2 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content1 {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content1 h1 {
+    font-family: 'Playfair Display', serif;
+    color: #F9F3F4;
+    text-shadow: 2px 2px #000;
+    font-size: 400%;
+    line-height: 1;
+}
+
+/*PARALLEX*/
+
+/*
+.introduction {
+    background-color: #e6e6e6;
+}
+.paragraf {
+    background-color: #e6e6e6
+}
+.mianpart{
+    background-color: #e6e6e6
+}
+*/
+
+.firstp {
+    height: 60%;
+    width: 100%;
+    margin: auto;
+    background-color: #e6e6e6;
+    display: table;
+    top: 0;
+}
+
+.instruction {
+    display: table-cell;
+    width: 100%;
+    max-width: none;
+}
+
+.contentintro {
+    padding: 4%;
+    max-width: 100%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.contentintro h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 250%;
+    line-height: 1;
+}
+
+.container-1 {
+    background-color: #e6e6e6;
+    display: flex;
+    padding: 5%;
+}
+
+.paragraph2 {
+    background-color: #e6e6e6;
+}
+
+.img11,
+.img12,
+.img13 {
+    width: 100%;
+    flex-basis: 45%;
+}
+
+.box-2 div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.box-2 div h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    padding: 4%;
+}
+
+.button {
+    /*background-color: #c82128;*/
+    border-radius: 10px;
+    font-family: 'Fauna One', serif;
+    color: red;
+    font-size: 90%;
+    border: solid red 1px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container-2 {
+    display: flex;
+    padding: 5%;
+}
+
+.box-3 {
+    position: relative;
+    top: 50%;
+    transform: translateY(20%)
+}
+
+.box-3 h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    padding: 4%;
+    line-height: 1;
+}
+
+.container-3 {
+    display: flex;
+    padding: 5%;
+}
+
+.box-6 div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.box-6 div h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    padding: 4%;
+    line-height: 1;
+}
+
+.doesntm h2 {
+    font-family: 'Playfair Display', serif;
+    color: #c82128;
+    padding-bottom: 1%;
+}
+
+.doesntm p {
+    text-align: center;
+    color: #c82128;
+    font-size: 20px;
+}
+
+
+@media screen and (max-device-width: 768px) {
+    .container-1 {
+        flex-direction: column!important;
+    }
+    .container-1 .box-1 {
+        margin-bottom: 120px;
+    }
+    .container-2 {
+        flex-direction: column;
+    }
+    .container-2 .box-3 {
+        margin-bottom: 120px;
+    }
+    .container-3 {
+        flex-direction: column;
+    }
+    .container-3 .box-5 {
+        margin-bottom: 150px;
+    }
+}
+
+/*Code for 480 */
+
+/* FOOTEEEERRRRRR */
+
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-family: 'Fauna One', serif;
+    padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none; 
+    color: inherit;
+}
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
+@media (min-width: 500px){
+    .navigation {
+        display:block;
+    }
+}
