@@ -1,0 +1,114 @@
+body{
+    font: 12px/18px Cambira, sans-serif;
+    background-color: white;
+}
+strong {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    box-shadow: 5px 2px 5px;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 30%;
+    padding: 1.5%;
+    box-shadow: 10px 5px 20px;
+}
+
+header {
+    background-color: black;
+    padding: 1.5%;
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+}
+
+nav {
+    text-align: right;
+    color: red;
+}
+
+main {
+    
+}
+
+#article1 {
+    background-color: white;
+    padding: 1.5%;
+    float: left;
+}
+
+#article2 {
+    background-color: white;
+    padding: 1.5%;
+    float: left;
+}
+
+#article3 {
+    background-color: white;
+    padding: 1.5%;
+    float: left;
+}
+
+#article4 {
+    background-color: white;
+    padding: 1.5%;
+    float: left;
+}
+
+footer {
+    margin-top: 15%;
+    height: auto;
+    background-color: black;
+    padding: 1.5%;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+
+#paragraphfooter {
+    color: red;
+}
+.item img {
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+/* 480px-600px ---------------------------------------------- */
+@media only screen and (min-width: 480px) {
+header { background-color:black; }
+} /* gul */
+article2 {clear: both;}
+aricle3 {clear: both;}
+
+@media only screen and (min-width: 1000px) {
+header {background-color: black; }
+    article {width: 45%; float: left; clear: none;}
+    article2 {width: 45%; float: left; clear: none;}
+    article3 {width: 45%; float: left; clear: none;}
+    article4 {width: 45%; float: left; clear: none;}
