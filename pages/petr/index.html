@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title>Homepage | danish.beta</title>
+    <meta name="keywords" content="struggles, danish, danish beta, magazine, learn, language" />
+    <meta name="description" content="" />
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <nav>
+                <div class="logo"></div>
+                <div class="menuSpan"><span></span></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="more"><a>Categories</a>
+                        <ul class="rest">
+                            <li><a href="interviews.html" class="inactive">Interviews</a></li>
+                            <li><a href="interesting-places-in-denmark.html" class="inactive">Interesting places in Denmark</a>
+                            </li>
+                            <li><a href="what-it-says-about-danish.html" class="inactive">What it says about Danish</a></li>
+                            <li><a href="struggles.html" class="inactive">Struggles</a></li>
+                            <li><a href="exercises.html" class="inactive">Exercises</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#podcasts">Podcasts</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#cheatsheet">Cheatsheet</a></li>
+                    <li class="searchButton"><img src="assets/search.png" alt="search"></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- .header-->
+
+        <div class="middle">
+
+            <div class="container">
+                <main class="content">
+                    <section class="articles">
+                        <h2>New articles</h2>
+                        <div class="allArticles">
+                    <article class="articleNew">
+                        <a href="visit-grenen.html" class="articlePicture" style="background:url(assets/grenen/7164264751_6930cf4ac7_b.jpg)"></a>
+                            <a href="visit-grenen.html"><h3>Visit Grenen</h3></a>
+                            <a href="visit-grenen.html" class="articleReadMore"><span>Read more!</span></a>
+                        <div class="articleSnippet">What is so interesting about Grenen? Maybe the fact that this is the place where two seas are "meeting" and you can see it with naked eye! Here you can also enjoy a bit of desert in Denmark!</div>
+                        <div class="articleInfo">in <a href="interesting-places-in-denmark.html">Interesting places in Denmark</a> | <span class="infoMob"></span>by Petr Mrkvicka | Oct 7, 2017</div>
+                    </article>
+
+                    <div class="articleSide">
+
+                        <article class="articleOld">
+                            <a href="kathrine-fra-ucplus-om-studerende-fra-udland.html" class="articlePicture" style="background:url(assets/IMG_5977.jpg)"></a>
+                            <div>
+                            <a href="kathrine-fra-ucplus-om-studerende-fra-udland.html"><h3>Kathrine fra UCplus om studerende fra udland</h3></a>
+                            <div class="articleSnippet">Hvad tænker Kathrine fra UCplus om studerende fra udland? Finde ud af i denne artikel!</div>
+                            <div class="articleInfo">in <a href="interviews.html">Interviews</a> | by Petr Mrkvicka | Oct 4, 2017</div>
+                            
+                            <a href="kathrine-fra-ucplus-om-studerende-fra-udland.html" class="articleReadMore"><span>Read more!</span></a>
+                                </div>
+                        </article>
+                        
+                        <article class="articleOld">
+                           <a href="what-does-urbandictionarycom-says-about-danish.html" style="background:url(assets/IMG_5958.jpg)" class="articlePicture"></a>
+                            <div>
+                                <a href="what-does-urbandictionarycom-says-about-danish.html" ><h3>What does urbandictionary.com says about Danish?</h3></a>
+                            <div class="articleInfo">in <a href="what-it-says-about-danish.html">What it says about Danish</a> | by Petr Mrkvicka | Oct 2, 2017</div>
+                            
+                            <a href="what-does-urbandictionarycom-says-about-danish.html" class="articleReadMore"><span>Read more!</span></a>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                </section>
+                    <section class="podcasts" id="podcasts">
+                    <h2>Podcasts</h2>
+                        <div>
+                        <a href="https://tunein.com/radio/Din-Radio-Jylland-1056-s236347/"><img src="assets/podcasts/dinradio.gif" alt="din radio"></a>
+                         <a href="https://tunein.com/radio/DR-P1-908-s24860/"><img src="assets/podcasts/drp1.gif" alt="dr p1"></a>
+                         <a href="https://tunein.com/radio/DR-Ramasjang-Ultra-s49643/"><img src="assets/podcasts/ramasjang.gif" alt="ramasjang"></a>
+                         <a href="https://tunein.com/radio/Den2Radio-s74113/"><img src="assets/podcasts/d2r.gif" alt="den2radio"></a>
+                            </div>
+                    </section>
+                    
+                </main>
+                <!-- .content -->
+            </div>
+            <!-- .container-->
+
+
+
+        </div>
+        <!-- .middle-->
+
+        <footer class="footer">
+            <p>&copy; 2017 danish.beta</p>
+        </footer>
+        <!-- .footer -->
+
+    </div>
+    <!-- .wrapper -->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(".menuSpan").click(function() {
+            $(".menuSpan").toggleClass("hover");
+            $(".header nav ul").toggleClass("hover");
+        });
+    </script>
+</body>
+</html>
