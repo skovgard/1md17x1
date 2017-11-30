@@ -1,0 +1,304 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+	font: 12px/18px Arial, sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 3%;
+
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 3em;
+	margin-top: 3%;
+	font-family: sans-serif;
+}
+
+h4 {
+	font-style: italic
+}
+
+.subtitle {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+
+p {
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	padding: 5px;
+}
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#imgcontainer1 {
+	width: 25%;
+	float: left;
+
+
+}
+
+#imgcontainer2 {
+	width: 25%;
+	float: left;
+
+}
+
+#imgcontainer3 {
+	width: 25%;
+	float: left;
+
+}
+
+nav {
+	font-size: 23px;
+	text-align: right;
+	display: block;
+	width: 60px;
+	float: right;
+}
+
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+	width: 100%;
+	height: 150px;
+	padding: 2%;
+	align-content: center;
+}
+
+.logo {
+	float: left;
+	width: 50%;
+	display: flex;
+	margin-left: 20px;
+}
+
+header img {
+	height: 150px;
+	margin: auto;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.content {
+	margin: auto;
+
+
+}
+
+#article1 {
+	width: 46%;
+	padding: 2%;
+	float: left;
+
+}
+
+#article2 {
+	width: 46%;
+	padding: 2%;
+	float: right;
+
+
+}
+
+#article3 {
+	width: 46%;
+	padding: 2%;
+	float: left;
+
+}
+
+#article4 {
+	width: 46%;
+	padding: 2%;
+	float: right;
+
+
+
+
+}
+
+#article5 {
+	width: 46%;
+	padding: 2%;
+	float: right;
+
+}
+
+section {
+	margin-top: 2%;
+	align-items: center;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.flexcontainer {
+	margin-top: 15px;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: space-between;
+
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	flex-flow: row wrap;
+
+	align-content: flex-end;
+	overflow: hidden;
+}
+
+.bottles {
+
+
+	float: right;
+	width: 45%
+}
+
+.articlemenu {
+	float: left;
+	width: 45%;
+
+
+}
+
+ul {
+	margin-top: 10px;
+	margin-right: 20px;
+	max-width: 100%;
+	height: 120px;
+	text-align: justify;
+
+}
+
+li {
+	line-height: 30px;
+}
+
+section {
+	max-width: 100%;
+	margin: auto;
+}
+
+/* unvisited link */
+
+a:link {
+	color: cadetblue;
+	text-decoration: none;
+}
+
+/* visited link */
+
+a:visited {
+	color: midnightblue;
+	text-decoration: none;
+}
+
+/* mouse over link */
+
+a:hover {
+	color: yellowgreen;
+	text-decoration: none;
+}
+
+/* selected link */
+
+a:active {
+	color: darkorange;
+	text-decoration: none;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+	height: auto;
+	padding: 2%;
+	text-align: center;
+}
+
+/* 480px-600px ---------------------------------------------- */
+
+@media only screen and (min-width: 480px) {
+	header {}
+	article img {
+		max-width: 50%;
+		float: left;
+		padding-right: 2%;
+	}
+	#article2 {
+		clear: both;
+	}
+	footer {
+		clear: both;
+	}
+}
+
+/* gul */
+
+/* 480px-1000px ---------------------------------------------- */
+
+@media only screen and (min-width: 1000px) {
+	header {}
+	#article1 {
+		width: 46%;
+		float: left;
+	}
+	#article2 {
+		width: 46%;
+		clear: none;
+		float: left;
+	}
+	#article3 {
+		width: 46%;
+		clear: none;
+		float: left;
+	}
+
+}
+
+#article4 {
+	width: 46%;
+	clear: none;
+	float: left;
+}
+
+
+#article5 {
+	width: 46%;
+	clear: none;
+	float: left;
+}
