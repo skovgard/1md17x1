@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    min-width: 200px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    text-align: center;
+    background: white;
+}
+
+.header img {
+    width: 60%;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav li {
+    display: inline;
+    font-size: 1.1em;
+    line-height: 40px;
+    padding: 2%;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+
+}
+
+section {
+    width: 80%;
+    background-color: #ce1111;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+.first img {
+    width: 90%;
+    padding-left: 23px;
+}
+
+.first h1 {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.second img {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.second h1 {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.thierd img {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.thierd h1 {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.about {
+
+
+    font-family: 'Lora', serif;
+
+}
+
+.about h2 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #ce1111;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about p {
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align-last: center;
+    font-size: 1.2em
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+
+    background: #ce1111;
+    margin-bottom: 10px;
+}
+
+.footer li {
+    display: block;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
+.footer h2 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.footer h3 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.image {
+    width: auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.facebook {
+    width: 50px;
+    float: right;
+}
+
+.instagram {
+    width: 50px;
+}
+
+.finland img,
+.finland video {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.finland h1 {
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: #ce1111;
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.finland {
+    font-family: 'Lora', serif;
+
+}
+
+.finland ul {
+    list-style-type: circle;
+    padding: 20px;
+}
+
+.finland h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9em;
+    color: #ce1111;
+    text-align: center;
+}
+
+.text {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.finland h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.red {
+    background-color: #ce1111;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.red p {
+    color: white;
+    font-size: 0.8em;
+}
+
+
+h4 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+h5 {
+    color: #ce1111;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 650px) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    section {
+        width: 90%;
+        padding: 2%;
+        margin: 0.5%;
+    }
+
+    .about h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .about p {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    .footer {
+        font-size: 1em;
+    }
+    .header img {
+        width: 300px;
+    }
+    .text {
+        padding: 50px
+    }
+    .finland img {
+        padding: 20px;
+        width: 90%;
+    }
+    .image {
+        width: auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+    #about p {
+        padding: 10px;
+    }
+    .header img {
+        width: 500px;
+    }
+}
