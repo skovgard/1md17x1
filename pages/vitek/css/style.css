@@ -1,0 +1,147 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 11.5rem;
+}
+video#bg-vid {
+    position: fixed;
+    min-width: 100%; min-height: 100%;
+    z-index: -100;
+}
+li {
+    padding-bottom: 1rem;
+}
+aside {
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+p {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 7rem;
+    padding: 5rem;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 17rem;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 100vh;
+}
+h1 {
+    line-height: 11rem;
+    padding: 5rem;
+    padding-left: 0;
+    padding-top: 0;
+}
+a {
+    color: rgb(255, 231, 20);
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+}
+.middle a {
+    text-decoration: none;
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.black {
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.white {
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+.black:hover {
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.white:hover {
+    background-color: black;
+    color: white;
+    transition: 0.6s ease;
+}
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+    position: fixed;
+    z-index: 100;
+    margin-top: -45%;
+    margin-left: 82%;
+}
+.right-sidebar a {
+    color: rgb(255, 231, 20);
+    font-size: 3rem;
+}
+.right-sidebar a:hover {
+    background-color: rgb(255, 231, 20);
+    color: black;
+    transition: 0.4s ease;
+}
+li.logo:hover {
+    background-color: rgb(255, 231, 20);
+}
+.lögö {
+    height: 40%;
+    width: 40%;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
