@@ -1,0 +1,159 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 12px/18px Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  line-height: 1.2em;
+  font-size: 4em;
+  color: white;
+  padding: 0% 2% 2% 2%;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 4% 0;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+#wrapper {
+  max-width: 1200px;
+  min-width: 240px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  background: linear-gradient(#122138, #344f6c, #122138);
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+  background-image: url('../images/background/handball.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#back {
+  padding: 2% 2% 0 2%;
+  width: 10%;
+}
+
+#back:hover {
+  box-shadow: 0 0 20px black;
+}
+
+.containerRow {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.containerRow p {
+  flex-grow: 3;
+  padding: 2% 0.5%;
+  background: linear-gradient(#70add1, #122138);
+  border-radius: 2%;
+  color: white;
+  font-size: 1.1em;
+  margin: 0.5%;
+}
+
+.thebiggestP {
+  flex-grow: 1;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  padding: 2%;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  background: linear-gradient(#122138, #344f6c, #122138);
+}
+
+footer p {
+  color: #cce586;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  margin: 0 0 0 30px;
+}
+
+footer img:hover {
+  box-shadow: 0 0 15px black;
+}
+
+@media only screen and (max-width: 855px) {
+  h1 {
+    font-size: 3em;
+  }
+  .containerRow p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  h1 {
+    font-size: 2em;
+  }
+  .containerRow p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .containerRow p {
+    font-size: 1em;
+  }
+}

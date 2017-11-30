@@ -1,0 +1,110 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+.wrapper {
+	min-width: 100px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	  height: 70px;
+ background-image: url("../images/header.jpg")  ;
+  padding: 2%;font-family: 'Audiowide', cursive;font-size: 25px;
+	
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+}
+h1 {font-size: 16px;text-align: center;color: #8e0404;font-weight: bold;font-family: 'Merienda', cursive;padding: 2%;text-shadow: 2px 2px 8px #000;}
+img {width: 100%; padding-bottom: 5%; padding-top: 5%;}
+#text1{text-align: center; font-size: 12px;padding-bottom: 0;font-weight:lighter;}
+#text2{text-align: center; font-size: 12px;}
+#photo2{padding-top: 0%;}
+video{max-width: 85%; align-items: center;padding: 5%;}
+h4{font-size: 14px;font-weight: bold;color: #8e0404;padding: 1%;font-family: 'Merienda', cursive;}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 75px;
+	text-align: center;
+   
+    clear: both;
+    background-image:url("../images/footer.jpg");
+    font-size: 15px; color: #8e0404;
+	
+}
+
+/* 480px-600px ---------------------------------------------- */ @media only screen and (min-width: 480px)  {#header {   } 
+    h1 {font-size: 25px;text-align: center;color: #8e0404;font-weight: bold;}
+   
+    #text1{float: left;margin-left: 1.25%;max-width: 45%;text-align: left;clear: none;padding: 2.5%; font-size: 100%;}
+   
+    #photo1{float: right; clear: none;max-width: 40%;}
+    
+    #photo2{float: left;margin-left: 1.25%;max-width: 45%;clear: both;}
+   
+    #text2{float: right; clear: right;text-align: left;margin-right: 1.25%; max-width: 45%;padding-top: 5%;font-size: 100%;}
+   
+    .two{align-content: center;}
+    
+    video {align-content: center;}
+    main {display: flex; width: 100%; flex-wrap: wrap;}
+    
+
+} /* gul */

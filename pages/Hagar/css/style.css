@@ -1,0 +1,89 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 12px/18px Arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  height: 150px;
+ background-image: url("../images/header.jpg")  ;
+  padding: 2%;font-family: 'Audiowide', cursive;color: black; font-size: 25px;
+}
+
+nav {
+  text-align: right;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {}
+
+#article1 {
+  
+  padding: 2%;
+}
+
+#article2 {
+  
+  padding: 2%;
+}
+#div1{float: left; max-width: 46%;font-size: 15px;margin-left: 2%; align-content: center; }
+#div1 img {max-width:400px; margin-left:2%;height: 340px;}
+#newsletter {float: right; max-width:400px; padding-bottom: 2%; margin-bottom: 10px;}
+.three{display: flex;justify-content: center ; clear: both;}
+h2{color: #8e0404;font-family: 'Merienda', cursive;}
+h4{color: #8e0404;font-size: 15px;padding: 2%;font-family: 'Merienda', cursive;}
+.photo img{width: 250px;}
+.photo{margin:1%;;padding: 2%; width: 250px;border-radius: 25px;
+    border: 2px solid #8e0404;
+    padding: 20px;}
+.photo p {font-size: 13px;}
+.photo h3{font-size: 15px;}
+#archive{width: 290px;height: 297px; clear: both;text-align: center;border-radius: 25px;
+    border: 2px solid #8e0404;
+    padding: 10px;}
+h3{font-size: 17px;font-weight: bold;padding: 2%;font-family: 'Merienda', cursive;}
+    
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: 75px;
+	text-align: center;
+   
+    clear: both;
+    background-image:url("../images/footer.jpg");
+    font-size: 15px; color: #8e0404;
+}

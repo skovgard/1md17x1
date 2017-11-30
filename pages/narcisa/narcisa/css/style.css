@@ -1,0 +1,209 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+    font-family: "helvetica", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "georgia", serif;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    text-align: center;
+    line-height: 28px;
+
+}
+
+h3 {
+    font-size: 1.4em;
+    font-family: "georgia", serif;
+    color: white;
+    padding-bottom: 2%;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+    height: 30px;
+     background: -webkit-linear-gradient(bottom, black, steelblue);
+    padding-bottom: 9%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+#header1 {
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: right;
+}
+
+#date {
+    color: white;
+    text-align: left;
+    margin-left: 2%;
+}
+
+nav {
+    text-align: right;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {}
+
+.section {
+    
+    width: 60%;
+    text-align: center;
+    -webkit-border-radius: 40%;
+    border-radius: 40%;
+    color: white;
+
+    background: -webkit-linear-gradient(bottom, black, steelblue);
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 2%;
+}
+
+article {
+    overflow: auto;
+}
+
+#article1 {
+    background-image: url("/images/abstract.jpg");
+    background-size: cover;
+    padding: 2%;
+}
+
+#article2 {
+    background-image: url(https://i.pinimg.com/originals/ce/40/b9/ce40b92a5c11ead39862265c05623d11.jpg);
+    background-size: 100%;
+    text-align: justify;
+    color: white;
+
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#article3 {
+    background-image: url(http://www.wallcoo.net/cartoon/fwa_graphic_design_05_1920+1600/wallpapers/1680x1050/Wallcoo_com_acne_fwa.jpg);
+    background-size: cover;
+    text-align: justify;
+    padding-left: 7%;
+    padding-right: 6%;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+}
+
+#one {
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 7%
+}
+
+#two {
+    margin-bottom: 19%;
+    padding-left: 30%;
+    padding-right: 5%;
+}
+
+#three {
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+p {
+    padding-bottom: 1.5%;
+}
+
+.brand {
+    color: black;
+}
+
+.change {
+    color: goldenrod;
+}
+
+#future {
+    padding-left: 35%;
+    padding-right: 6%;
+    padding-top: 2%;
+}
+
+#best {
+    padding-left: 45%;
+    padding-right: 6%;
+    padding-top: 3%;
+}
+
+#more {
+    padding-left: 35%;
+    padding-right: 6%;
+    padding-top: 3%;
+}
+
+#cool {
+    padding-left: 45%;
+    padding-right: 6%;
+    padding-top: 3%;
+}
+
+#tip {
+    padding-left: 45%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+#col {
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    height: auto;
+     background: -webkit-linear-gradient(bottom, black, steelblue);
+    color: white;
+    padding: 2%;
+    text-align: center;
+}

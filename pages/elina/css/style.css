@@ -1,0 +1,160 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 12px/18px Cambira, sans-serif;
+  background-color: #333;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url('../images/directors-chair.jpg');
+/*  background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+    width:100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  background-color: black;
+  padding: 1.5%;
+    text-align: center;
+}
+header img{
+    width: 50%;
+    
+}
+
+nav {
+  text-align: right;
+    color: red;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+}
+
+#article1 {
+    color: white;
+  padding: 1.5%;
+    margin-top:10%;
+    font-size: 2.3em;
+    line-height: 1.5;
+    text-shadow: 10px 5px 20px;
+} 
+
+#link1 {
+    color: white;
+    text-decoration: none;
+}
+
+#link1:hover {
+    text-shadow: 0px 0px 20px black;
+}
+
+#link2 {
+    color: white;
+    text-decoration: none;
+}
+
+#link2:hover {
+    text-shadow: 0px 0px 20px black;
+}
+
+#link3 {
+    color: white;
+    text-decoration: none;
+}
+
+#link3:hover {
+    text-shadow: 0px 0px 20px black;
+}
+
+#article2 {
+    color: white;
+    padding:16.5% 1.5%;
+    font-size: 2.3em;
+    line-height: 1.5;
+    text-shadow: 10px 5px 20px;
+}
+
+#article3 {
+    color: white;
+    padding: 1.5%;
+    margin-bottom:10%;
+    font-size: 2.3em;
+    line-height: 1.5;
+    text-shadow: 10px 5px 20px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    margin-top:10%;
+  height: auto;
+  background-color: black;
+  padding: 1.5%;
+    clear: both;
+    display:flex;
+    justify-content: space-between;
+}
+#paragraphfooter {
+    color: red;
+}
+
+#flexitem{
+    display:flex;
+    justify-content: flex-end;
+}
+.item img{
+    width:35px;
+    height:35px;
+    margin-left:30px;
+}
+
+
+/* 480px-600px ---------------------------------------------- */
+@media only screen and (min-width: 480px) {
+header { background-color:black; }
+} /* gul */
+article2 {clear: both;}
+aricle3 {clear: both;}
+
+@media only screen and (min-width: 1000px) {
+header {background-color: black; }
+    article {width: 50%; float: left; clear: none;}
+    article2 {width: 50%; float: left; clear: none;}
+    article3 {width: 50%; float: left; clear: none;}

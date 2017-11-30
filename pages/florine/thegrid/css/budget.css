@@ -1,0 +1,210 @@
+    /* Based on template from csslayoutgenerator.com */
+    
+    * {
+        margin: 0;
+        padding: 0
+    }
+    .clearfix {
+        overflow: auto;
+    }
+    body {
+        background-color: #fff;
+        font: 12px/18px Arial, sans-serif;
+    }
+    strong {
+        font-weight: bold;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    img {
+        max-width: 100%;
+        /*before it was not specified*/
+    }
+    #wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    /* Navbar -----------------------------------------------------------------*/
+    /* Header
+-----------------------------------------------------------------------------*/
+    
+    header {
+        height: auto;
+        background-color: #FF7F50;
+        padding: 2%;
+    }
+    .nav1 {
+        background-color: black;
+    }
+    .nav1 a {
+        color: white;
+        padding: 1%;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    .nav2 {
+        background-color: #fff;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .nav2 li {
+        display: inline;
+        padding: 0 1%;
+    }
+    .rightborder {
+        border-right: 1px solid black;
+    }
+    .nav2 a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: bold;
+        font-size: 1.25em;
+    }
+    .nav2 a:hover {
+        text-decoration: underline;
+        color: darkmagenta
+    }
+    .nav1 li {
+        display: inline;
+    }
+    /* Middle
+-----------------------------------------------------------------------------*/
+    
+    .flexbox {
+        display: flex;
+        justify-content: center
+    }
+    .flexbox .flexitem {
+        padding: 1%;
+    }
+    .flexbox .flexitem p {
+        padding: 1%;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: arial;
+    }
+    article {
+        overflow: auto;
+        padding: 1%;
+        margin: 1%;
+    }
+    article .horline {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+    }
+    article .horline span {
+        background: #fff;
+        padding: 0 10px;
+    }
+    #article1 {
+        background-color: white;
+        padding: 2%;
+    }
+    #article2 {
+        background-color: white;
+        padding: 2%;
+    }
+    #article3 {
+        background-color: white;
+        padding: 2%;
+    }
+    #article4 {
+        background-color: white;
+        padding: 2%;
+    }
+    .bullets {
+        list-style-type: disc;
+        margin-left: 3.5%;
+    }
+    /* Footer
+-----------------------------------------------------------------------------*/
+    
+    footer {
+        height: auto;
+        background-color: white;
+        padding: 2%;
+    }
+    @media only screen and (min-width:48px) {
+        header {
+            background-color: lightcyan;
+        }
+        article .picture {
+            display: block;
+            width: 100%;
+            padding: 2%;
+            margin: 0 auto;
+        }
+        #article2 {
+            clear: both
+        }
+        footer {
+            clear: both
+        }
+        #article4 {
+            clear: both
+        }
+        social {
+            clear: both
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+        }
+        .social .socialitem {
+            padding: 1%;
+            width: 5em;
+            height: 5em;
+        }
+        .social .socialitem p {
+            padding: 1%;
+            text-align: center;
+            font-size: 1.3em;
+            font-family: arial;
+        }
+    }
+    @media only screen and (min-width:1000px) {
+        header {
+            background-color: white;
+        }
+        #article1 {
+            width: 44%;
+            float: left;
+        }
+        #article2 {
+            width: 44%;
+            clear: none;
+            float: left;
+        }
+        #article3 {
+            width: 44%;
+            float: left;
+        }
+        #article4 {
+            width: 44%;
+            clear: none;
+            float: left;
+        }
+    }
+    .author {
+        display: block;
+    }

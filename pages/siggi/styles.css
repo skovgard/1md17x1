@@ -1,0 +1,131 @@
+body { 
+	background-color: #ccc; font-family: arial, sans-serif; font-size:14px
+}
+
+*{
+	margin:1; padding:0
+}
+
+nav {
+	background-color: #ccc; 
+	text-align: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+nav li {
+	display:inline; 
+	margin: 0 auto; 
+	padding: 1.1em;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#table4 {
+	background-color:whitesmoke; 
+	width:35%; 
+	height: 35%; 
+	float:left; 
+	padding: 2%; 
+	margin: 2%;
+	margin-right: 2%;
+}
+
+#table1 {
+	background-color:whitesmoke; 
+	width:35%; 
+	height: 35%; 
+	float:left;
+	padding: 2%; 
+	margin: 2%; 
+	margin-left: 9%;
+}
+
+#table3 {
+	background-color:whitesmoke; 
+	width:35%; 
+	height: 35%; 
+	float:left; 
+	padding: 2%; 
+	margin: 2%;
+	margin-left: 9%;
+}
+
+#table2 {
+	background-color:whitesmoke; 
+	width:35%; 
+	height: 35%; 
+	float:left; 
+	padding: 2%;
+	margin: 2%;
+	margin-right: 2%;
+
+}
+
+#table5 {
+	background-color:whitesmoke; 
+	width:35%; 
+	height: 35%; 
+	float:left; 
+	padding: 2%;
+	margin: 2%;
+	margin-left: 9%;
+}
+
+#table6 {
+	background-color:whitesmoke; 
+	width:35%; 
+	height: 35%; 
+	float:left; 
+	padding:2%; 
+	margin: 2%;
+	margin-right: 2%;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+#filler {visibility: hidden;}
+
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
+
+
+header {
+	text-align: center
+}
+
+footer {
+	text-align: center;
+	float: clear;
+}
+
+section {
+	text-align: center;	
+	align-content: center;
+	border-radius: 7px;
+}
+
+article { margin: auto;
+
+}
+
+a
+{
+	text-decoration: none;
+	color: rebeccapurple;
+}
+
+h1 
+{
+	font-size: 45px;
+	text-transform: uppercase;
+}

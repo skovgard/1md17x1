@@ -1,0 +1,184 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 12px/18px; font-family: 'PT Sans', sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;    
+
+}
+
+h2 {
+  font-size: 2.2em;
+  font-family: 'Old Standard TT', serif;    
+}
+
+h3{font-size: 0.8em;
+   margin: 1%    
+}
+
+h4{ font-size: 1.5em; 
+    text-align: center;
+    word-spacing: 35px;
+    margin: 0.5%;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white; 
+  overflow: hidden;    
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  height: auto;
+  background-color: black;
+  padding: 2%;
+}
+
+nav {
+  text-align: right;
+}
+
+body{background-image: url(http://img02.deviantart.net/9589/i/2009/340/5/5/brushed_metal_silver_texture_by_sweetsoulsister.jpg)
+}
+
+#img {max-width: 7%;
+     position: fixed;
+}
+
+#menu {color: lightgrey;
+}
+
+#mainmenu {list-style: none;
+       position: fixed;
+    right: 5.5%;
+    width: 10%;
+}
+
+#mainmenu a:link {color: whitesmoke;
+        text-decoration: none;
+}
+
+#mainmenu a:hover {color: darkgrey;
+}
+
+#mainmenu ul {list-style: none;
+        margin-top: 3.8vw;
+        padding-right: 100px;
+        font-family: monospace;
+        font-size: 1.8vw;
+        font-weight: 600;
+        font-family: "Century Gothic", serif;
+}
+
+#mainmenu ul a:link {text-decoration: none;
+         color: #663399
+}
+
+#mainmenu ul a:visited {color: #663399
+}
+
+#mainmenu ul a:hover {color: #4d4dff;
+    text-shadow: black 0.2em 0.2em 0.8em;
+}
+
+#mainmenu li ul {display:none;
+          position: absolute;
+}
+
+#mainmenu li:hover ul {display: block;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+#image img{border-bottom: 8px solid black;         
+}
+
+main img{margin-left: auto;
+    margin-right: auto
+}
+
+p{font-size: 1.2em;
+  padding: 0.6%;
+}
+
+.brb{padding-right: 2.2%;}
+
+.art{ display: inline;
+} 
+
+#article1 {
+  padding: 2%; 
+}
+#article1 img{  
+}
+
+#article2 {
+  padding: 2%;
+}
+
+#article3 {
+  padding: 2%;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  height: auto;
+  background-color: black;
+  padding: 2%;
+}
+
+footer img{float: right;
+}
+
+footer p{ font-size: 0.8em;
+          color: white
+}
+
+/* 480px-600px ---------------------------------------------- */
+@media only screen and (min-width: 300px) {
+header { background-color:black; }
+    article img{ max-width: 50%; 
+        float: left; 
+        padding-right: 2%;}
+    img{ max-width: 100%;}
+    #article2{ clear: both;}
+    footer{ clear: both; }
+    #article3{ clear: both; }
+    #article1{ overflow: auto; } 
+    #header img { max-width: 100%; }
+    }
+ /* gul */
+
+@media only screen and (min-width: 1000px) {
+header { background-color:black}
+    img{ max-width: 100%;}
+    #article1{width: 100%; float: left; }
+    #article2{width: 100%; clear: none;float: left;}
+    #article3{width: 100%; float: left;}
+    }
+ /* gul */

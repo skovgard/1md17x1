@@ -1,0 +1,232 @@
+/* Based on template from csslayoutgenerator.com */
+
+body {
+  font: 12px/18px Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  line-height: 1.2em;
+  font-size: 4em;
+  color: white;
+  padding: 0% 2% 2% 2%;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 4% 0;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+#wrapper {
+  max-width: 1200px;
+  min-width: 240px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+  background: linear-gradient(#122138, #344f6c, #122138);
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main {
+  background-image: url('../images/background/handball.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#back {
+  padding: 2% 2% 0 2%;
+  width: 10%;
+}
+
+#back:hover {
+  box-shadow: 0 0 20px black;
+}
+
+.containerRow {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerRow section {
+  padding: 2%;
+  margin: 6% 0;
+  background: radial-gradient(#70add1, #122138);
+  border-radius: 3%;
+  color: black;
+}
+
+.smallSect {
+  width: 20%;
+}
+
+.smallSect:hover {
+  box-shadow: 0 0 50px black;
+}
+.smallSect a:hover{
+  text-shadow: 0 0 20px black;
+}
+.bigSect {
+  width: 32%;
+}
+
+.containerRow section ul li a:hover {
+  text-shadow: 0 0 20px black;
+  cursor: pointer;
+}
+
+.containerRow section ul {
+  font-size: 1.2em;
+}
+
+.containerRow section ul li {
+  color: #e0e0e0;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+  padding: 2%;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  background: linear-gradient(#122138, #344f6c, #122138);
+}
+
+footer p {
+  color: #cce586;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  margin: 0 0 0 30px;
+}
+
+footer img:hover {
+  box-shadow: 0 0 15px black;
+}
+
+@media only screen and (max-width: 800px) {
+  .containerRow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .containerRow section {
+    width: 100%;
+    margin: 3% 0;
+    border-radius: 1.5%;
+  }
+  .containerCol {
+    display: flex;
+  }
+  .containerCol img {
+    width: 40%;
+  }
+  h2 {
+    padding-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .containerRow {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .padRight {
+    padding-right: 5%;
+  }
+  .containerRow section {
+    width: 95%;
+    padding: 2%;
+    margin: 2% 0;
+    background: radial-gradient(#70add1, #122138);
+    border-radius: 3%;
+    color: black;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .containerCol {
+    display: flex;
+  }
+  .containerCol div ul li {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .containerRow {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerRow section {
+    width: 95%;
+    padding: 2%;
+    margin: 2% 0;
+    background: radial-gradient(#70add1, #122138);
+    border-radius: 3%;
+    color: black;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .containerCol {
+    display: inline;
+  }
+  .containerCol div ul li {
+    font-size: 1em;
+  }
+}
