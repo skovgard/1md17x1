@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="971 2989.4 1516 589.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffdf;
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-5, .cls-7 {
+        fill: #0f1519;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 32px;
+      }
+
+      .cls-2, .cls-7 {
+        font-family: Rufina-Bold, Rufina;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #95989a;
+      }
+
+      .cls-4 {
+        fill: #ffdd6d;
+      }
+
+      .cls-5 {
+        font-size: 20px;
+        font-family: OpenSans-Bold, Open Sans;
+      }
+
+      .cls-6 {
+        fill: #b9bdbf;
+        font-size: 25px;
+        font-family: OpenSans-Regular, Open Sans;
+      }
+
+      .cls-7 {
+        font-size: 28px;
+      }
+
+      .cls-10, .cls-8 {
+        fill: none;
+      }
+
+      .cls-8 {
+        stroke: #ffdd6d;
+        stroke-width: 6px;
+      }
+
+      .cls-9 {
+        stroke: none;
+      }
+
+      .cls-11 {
+        filter: url(#Yellow_background);
+      }
+    </style>
+    <filter id="Yellow_background" x="971" y="2989.4" width="1516" height="589.6" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Subscribe" transform="translate(1041 407)">
+    <g id="Subscribe-2" data-name="Subscribe" transform="translate(0 312)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, -1041, -719)">
+        <path id="Yellow_background-2" data-name="Yellow background" class="cls-1" d="M0,0H1366V439.6H0Z" transform="translate(1041 3059.4)"/>
+      </g>
+      <text id="Subscribe_below_to_receive_our_weekly_email_updates." data-name="Subscribe below to receive our weekly email updates." class="cls-2" transform="translate(366 2375)"><tspan x="31.8" y="30">Subscribe below to receive our weekly </tspan><tspan x="207.08" y="69">email updates.</tspan></text>
+      <g id="Name_box" data-name="Name box" class="cls-3" transform="translate(158 2533)">
+        <rect class="cls-9" width="330" height="76" rx="38"/>
+        <rect class="cls-10" x="0.5" y="0.5" width="329" height="75" rx="37.5"/>
+      </g>
+      <g id="Email_box" data-name="Email box" class="cls-3" transform="translate(518 2533)">
+        <rect class="cls-9" width="330" height="76" rx="38"/>
+        <rect class="cls-10" x="0.5" y="0.5" width="329" height="75" rx="37.5"/>
+      </g>
+      <g id="Country_box" data-name="Country box" class="cls-3" transform="translate(878 2533)">
+        <rect class="cls-9" width="330" height="76" rx="38"/>
+        <rect class="cls-10" x="0.5" y="0.5" width="329" height="75" rx="37.5"/>
+      </g>
+      <g id="Button" class="cls-4" transform="translate(578 2670)">
+        <rect class="cls-9" width="210" height="76" rx="38"/>
+        <rect class="cls-10" x="0.5" y="0.5" width="209" height="75" rx="37.5"/>
+      </g>
+      <text id="SUBSCRIBE-3" data-name="SUBSCRIBE" class="cls-5" transform="translate(626 2695)"><tspan x="3.104" y="21">SUBSCRIBE</tspan></text>
+      <text id="Name" class="cls-6" transform="translate(198 2552)"><tspan x="0" y="27">Name</tspan></text>
+      <text id="Email_address" data-name="Email address" class="cls-6" transform="translate(558 2551)"><tspan x="0" y="27">Email address</tspan></text>
+      <text id="Country" class="cls-6" transform="translate(918 2551)"><tspan x="0" y="27">Country</tspan></text>
+      <text id="Subscription" class="cls-7" transform="translate(602 2274)"><tspan x="0" y="26">Subscription</tspan></text>
+      <line id="Line_4" data-name="Line 4" class="cls-8" x2="168" transform="translate(602.5 2311.5)"/>
+    </g>
+  </g>
+</svg>
