@@ -2,12 +2,12 @@
 The X Class at the Multimedia Programme
 
 ## Table 1
-Desiree
-David
-Tyron
-Luka
-David
-Narcisa
+* Desiree
+* David
+* Tyron
+* Luka
+* David
+* Narcisa
 
 ## Table 2
 Siggi
