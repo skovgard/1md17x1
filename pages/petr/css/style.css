@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700');
+
+::selection {
+    background: #ffb7b7;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #ffb7b7;
+    /* Gecko Browsers */
+}
+
+/* Eric Meyer's CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Georgia, sans-serif;
+    background: #c93b2d
+}
+
+.wrapper {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.articleCategory,
+.articleReadMore,
+.articleInfo,
+footer,
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+* {
+    outline: none;
+    transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+}
+
+.inactive {
+    pointer-events: none;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    background: white;
+    height: 5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-width: 100%
+}
+
+.logo {
+    background: url(../logo.svg);
+    height: 3em;
+    width: 10em;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    margin-left: 1em
+}
+
+.header nav ul {
+    display: none
+}
+
+.header nav .menuSpan span {
+    width: 2em;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 2.5em;
+    right: 2em
+}
+
+.header nav .menuSpan span:before {
+    content: "";
+    display: inline-block;
+    width: 2em;
+    height: 1px;
+    background: black;
+    position: absolute;
+    margin-top: -.5em
+}
+
+.header nav .menuSpan span:after {
+    content: "";
+    display: inline-block;
+    width: 2em;
+    height: 1px;
+    background: black;
+    position: absolute;
+    margin-top: .5em;
+}
+
+.header nav .menuSpan.hover span {
+    width: 0px;
+    right: 4em
+}
+
+.header nav .menuSpan.hover span:before {
+    -webkit-animation: first .2s ease;
+    -moz-animation: first .2s ease;
+    animation: first .2s ease;
+    margin-top: 0em;
+    animation-fill-mode: forwards;
+}
+
+.header nav .menuSpan.hover span:after {
+    -webkit-animation: second .2s ease;
+    -moz-animation: second .2s ease;
+    animation: second .2s ease;
+    margin-top: 0em;
+    animation-fill-mode: forwards;
+}
+
+@-moz-keyframes first {
+    100% {
+        -moz-transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes first {
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes first {
+    100% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+@-moz-keyframes second {
+    100% {
+        -moz-transform: rotate(-45deg);
+    }
+}
+
+@-webkit-keyframes second {
+    100% {
+        -webkit-transform: rotate(-45deg);
+    }
+}
+
+@keyframes second {
+    100% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}
+
+
+
+.header nav ul.hover {
+    display: block;
+    background: #222222;
+    margin-top: 1em;
+}
+
+.header nav ul.hover li {
+    padding: 10px
+}
+
+.header nav ul {
+    padding-left: 5px
+}
+
+.header nav ul li a {
+    color: white;
+    text-transform: uppercase
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    padding: 1em 10px
+}
+
+.searchButton img {
+    display: none
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.middle {
+    width: 100%;
+    margin-top: 6em
+}
+
+.middle:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.content {}
+
+article {
+    background: white;
+    margin-top: 10px;
+    padding: 10px
+}
+
+article .articleReadMore span {
+    background: #c93b2d;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 5px
+}
+
+article a.articlePicture {
+    height: 15em;
+    width: 100%;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    display: block
+}
+
+article h3 {
+    font-weight: 500;
+    padding: .4em 0;
+    font-size: 1.6em;
+    line-height: 1.4em
+}
+
+article.articleNew {
+    display: flex;
+    flex-direction: column
+}
+
+article.articleNew .articleReadMore {
+    order: 4
+}
+
+article.articleNew .articlePicture,
+article.articleNew a,
+article.articleNew .articleSnippet,
+article.articleNew .articleInfo {
+    order: 1
+}
+
+article a {
+    color: black
+}
+
+article .articleInfo {
+    color: grey;
+    font-size: x-small;
+    font-weight: 300;
+    margin: 5px 0
+}
+
+article.articleNew .articleCategory {
+    display: none
+}
+
+section.podcasts div {
+    display: flex;
+    flex-direction: column
+}
+
+section.podcasts div a {
+    display: block;
+    width: 80%;
+    margin-left: 10%
+}
+
+section.podcasts div a img {
+    width: 100%
+}
+
+.articleFull {
+    background: white;
+    margin-bottom: 10px
+}
+
+.articleFull h2 {
+    color: black;
+    padding: 1em 0
+}
+
+.articleFull a.articleCat {
+    color: white;
+    background: #c93b2d;
+    padding: 6px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.articleFull p.articleCat {
+    color: grey;
+}
+
+.articleFull p {
+    margin-bottom: 10px
+}
+
+.articleFull p.welcomeText {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px
+}
+
+.articleFull img {
+    width: 100%
+}
+
+.articleFull p a,
+.articleFull p span:hover {
+    color: #c93b2d
+}
+
+.articleFull p a:hover {
+    border-bottom: 1px dotted #c93b2d
+}
+
+.articleFull .coverImg {
+    margin-bottom: 20px
+}
+
+.articleFull h3 {
+    color: #c93b2d
+}
+
+.articleFull h3:before {
+    content: "// "
+}
+
+
+[data-tooltip] {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+
+[data-tooltip]:before {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 7px;
+    min-width: 190px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #000;
+    background-color: #c93b2d;
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+
+[data-tooltip]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid #c93b2d;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+
+.right-sidebar {
+    float: left;
+    width: 250px;
+    margin-left: -250px;
+    position: relative;
+    background: #FFACAA;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+    background: white;
+    padding: 10px;
+    font-size: x-small;
+    color: grey;
+    font-weight: 300
+}
+
+
+.next {
+    background: whitesmoke;
+    color: grey;
+    padding: 20px;
+    margin: -10px
+}
+
+.next span {
+    font-weight: bold
+}
+
+/* +320px
+-----------------------------------------------------------------------------*/
+
+@media screen and (min-device-width: 320px) {}
+
+
+
+
+/* +480px
+-----------------------------------------------------------------------------*/
+
+@media screen and (min-device-width: 480px) {
+
+    .articleSide {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+    .articleSide article {
+        flex-basis: 48%;
+        flex-shrink: 2;
+    }
+    section.podcasts div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-shrink: 2;
+        justify-content: space-evenly
+    }
+    section.podcasts div a {
+        width: 50%;
+        flex-basis: 48%;
+        flex-shrink: 2;
+        margin-left: 0
+    }
+    .left {
+        float: left;
+        margin-right: 20px
+    }
+    .right {
+        float: right;
+        margin-left: 20px
+    }
+    .articleFull img:not(.coverImg) {
+        width: 40%;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    .articleFull p {
+        font-size: 1.2em;
+        line-height: 1.4em
+    }
+
+}
+
+
+/* +768px
+-----------------------------------------------------------------------------*/
+
+@media screen and (min-device-width: 768px) {
+    .header {
+        position: fixed;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6)
+    }
+
+    .header nav ul {
+        display: block;
+        position: absolute;
+        top: 1.7em;
+        right: 2em
+    }
+
+    .header nav ul li {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 1.2em
+    }
+    .header nav ul li a {
+        color: #c93b2d
+    }
+
+    .header nav ul li ul {
+        display: none
+    }
+
+    .header nav .menuSpan {
+        display: none
+    }
+    .searchButton img {
+        height: 1em;
+        display: block
+    }
+
+    .allArticles {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding: 2em;
+        margin: 1em;
+        padding-right: 0
+    }
+    .articleNew,
+    .articleSide {
+        flex-basis: 50%;
+        flex-shrink: 2;
+        width: 48%
+    }
+    .allArticles .articleNew {
+        float: left;
+    }
+    .articleSide {
+        flex-direction: column
+    }
+    .articleOld a.articlePicture {
+        width: 15em;
+        float: left;
+        margin-right: 10px;
+        clear: right;
+        flex-basis: 15em;
+        flex-shrink: 0
+    }
+    .articleSide {
+        width: 48%;
+        padding-left: 1%;
+    }
+
+    section.podcasts div a {
+        width: 25%;
+        flex-basis: 24%;
+        flex-shrink: 2;
+        margin-left: 0;
+        padding: 3px;
+        opacity: 0.7
+    }
+    section.podcasts div a:hover {
+        opacity: 1
+    }
+    section.podcasts div {
+        margin: 1em;
+    }
+    h2 {
+        padding: 1em;
+        margin-left: 1%;
+        font-size: 2em
+    }
+    .logo {
+        margin-left: 2em
+    }
+
+    .more:hover ul.rest {
+        display: block;
+        background: #222222;
+        position: absolute;
+        top: 0em;
+        left: -2em
+    }
+    .more:hover ul.rest:before {
+        content: "CATEGORIES";
+        display: block;
+        color: white;
+        text-align: left;
+        margin-left: 10px;
+        padding: 10px;
+        text-decoration: underline
+    }
+    ul.rest li {
+        display: block!important;
+        color: white;
+        padding: 10px;
+        font-size: 1em!important;
+        text-align: left
+    }
+    ul.rest li a {
+        color: white!important
+    }
+    .articleOld {
+        display: flex;
+        flex-direction: row
+    }
+    .articleFull article {
+        margin: 4em;
+        padding-top: 3em
+    }
+    .next {
+        margin: 0 -4em;
+        padding: 4em;
+        font-size: 1.4em
+    }
+
+}
+
+/* +1024px
+-----------------------------------------------------------------------------*/
+
+@media screen and (min-device-width: 1024px) {
+    .header {
+        text-align: center;
+        z-index: 99
+    }
+    .header nav {
+        width: 1024px;
+        margin-left: 50%;
+        transform: translateX(-50%)
+    }
+    .header nav ul {
+        top: 1em
+    }
+    .container {
+        width: 1024px;
+        margin-left: 50%;
+        transform: translateX(-50%)
+    }
+    .footer p {
+        width: 1024px;
+        margin-left: 50%;
+        transform: translateX(-50%)
+    }
+
+    h2 {
+        font-size: 2.5em
+    }
+    h3 {
+        font-size: 2em!important
+    }
+    p,
+    .articleSnippet {
+        font-size: 1.4em!important;
+        line-height: 1.4em
+    }
+    .articleNew a.articlePicture {
+        height: 20em
+    }
+
+    .horizontal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 40px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .vertical {
+        position: fixed;
+        top: 0;
+        left: -40px;
+        height: 100%;
+        width: 40px;
+        background-color: white;
+    }
