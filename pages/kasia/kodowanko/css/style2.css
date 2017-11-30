@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Raleway, sans-serif;
+    line-height: 2em;
+}
+
+.wrapper {
+    min-width: 1000px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    margin-bottom: 2em;
+}
+
+.mainmenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color:lightcoral;
+}
+
+.mainmenu img {
+    width: 40%;
+    height: 40%;
+}
+
+.nav {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border-bottom: solid grey 1px;
+    border-top: solid grey 1px;
+    padding: 0.5em;
+}
+
+nav li {
+    display: inline;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Fashion Fetish', sans-serif;
+    font-size: 3.5em;
+    font-weight: 500;
+    transform: scaleX(0.9);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.social {
+    width: 10rem;
+}
+
+em {
+    font-style: normal;
+    font-weight:600;
+    color: lightcoral;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+main{
+    margin: 5em 35em 10em 20em;
+
+}
+
+main h2{
+    margin-bottom: 1em;
+    font-size: 3em;
+    text-transform: capitalize;
+    
+}
+main h3{
+    margin-bottom: 1em;
+    font-weight: normal;
+    font-size:2em;
+    
+    
+}
+main h4{
+    text-transform: uppercase;
+    color:dimgray;
+    border-top:solid 1px grey;
+    border-bottom:solid 1px grey;
+}
+
+main img{
+    width:100%;
+    margin:2em 0em 2em 0em
+}
+p{
+    margin-bottom: 3em;
+    font-size:1.5em;
+    line-height: 1.2em;
+}
+
+h5{
+    font-size: 1.5em;
+    font-weight: 600;
+    
+}
+.introduction{
+    font-weight: 600;
+}
+main li{
+    list-style:square;
+    font-size:1.5em;
+
+}
+main ul{
+    margin-top:2em;
+}
+
+.day{
+    margin-top:3em;
+    text-transform: uppercase;
+}
+.base p{
+font-size: margin:0;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+    background: black;
+    min-width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+.footer h3 {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'fashion fetish', sans-serif;
+    font-weight: normal;
+    padding: 2%;
+}
